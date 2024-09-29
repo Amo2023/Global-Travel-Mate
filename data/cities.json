@@ -1,6 +1,18 @@
 {
   "cities": [
     {
+      "cityName": "Chengdu",
+      "country": "China",
+      "emoji": "🇨🇳",
+      "date": "2024-09-29T12:16:20.936Z",
+      "notes": "Home ,sweet home!!",
+      "position": {
+        "lat": 30.44867367928756,
+        "lng": 103.35937500000001
+      },
+      "id": 73930391
+    },
+    {
       "cityName": "Lisbon",
       "country": "Portugal",
       "emoji": "🇵🇹",
@@ -31,10 +43,22 @@
       "date": "2024-09-29T08:01:03.814Z",
       "notes": "",
       "position": {
-        "lat": "-27.566721430409707",
-        "lng": "153.10546875000003"
+        "lat": -27.566721430409707,
+        "lng": 153.10546875000003
       },
       "id": 73930386
+    },
+    {
+      "cityName": "Montilly",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-09-29T12:41:23.199Z",
+      "notes": "",
+      "position": {
+        "lat": 46.58906908309185,
+        "lng": 3.251953125
+      },
+      "id": 73930392
     }
   ]
 }

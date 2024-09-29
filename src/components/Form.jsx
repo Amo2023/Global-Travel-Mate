@@ -25,7 +25,7 @@ export function convertToEmoji(countryCode) {
 function Form() {
   const { createCity, isLoading } = useCities();
   const [cityName, setCityName] = useState("");
-  const [country, setCountry] = useState(""); 
+  const [country, setCountry] = useState("");
   const [date, setDate] = useState(new Date());
   const [notes, setNotes] = useState("");
   const [emoji, setEmoji] = useState("");
@@ -78,10 +78,11 @@ function Form() {
       emoji,
       date,
       notes,
-      position: { lat, lng },
+      position: {
+        lat: Number(lat),
+        lng: Number(lng),
+      },
     };
-
-    console.log(newCity);
 
     await createCity(newCity);
     navigate("/app/cities");

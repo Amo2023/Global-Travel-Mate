@@ -24,7 +24,7 @@ function Map() {
     getPosition,
   } = useGeolocation();
   // const [mapLat,mapLng]=useUrlPosition()
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const mapLat = searchParams.get("lat");
   const mapLng = searchParams.get("lng");
   
@@ -67,7 +67,8 @@ function Map() {
         {cities.map((city) => (
           <Marker
             position={[city.position.lat, city.position.lng]}
-            key={city.id}
+            key={city.
+              cityName}
           >
             <Popup>
               <span>{city.cityName}</span>

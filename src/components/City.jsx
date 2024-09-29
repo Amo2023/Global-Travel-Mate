@@ -18,6 +18,8 @@ function City() {
   const { getCity, currentCity, isLoading } = useCities();
   const { cityName, emoji, date, notes } = currentCity;
 
+
+  
   useEffect(
     function () {
       getCity(id);

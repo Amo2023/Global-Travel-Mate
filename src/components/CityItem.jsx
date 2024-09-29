@@ -12,13 +12,15 @@ const formatDate = (date) =>
   }).format(new Date(date));
 
 function CityItem({ city }) {
-  const { currentCity } = useCities();
+  const { currentCity, deleteCity } = useCities();
   const { cityName, emoji, date, id, position } = city;
-  const { deleteCity } = useCities();
   const navigate = useNavigate();
+
+  // console.log("city",city)
 
   async function handleDelete(e) {
     e.preventDefault();
+    e.stopPropagation();  // Prevent the link from being clicked
     if (!id) return;
     await deleteCity(id);
 
