@@ -25,18 +25,6 @@
       "id": 73930385
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
       "cityName": "Brisbane",
       "country": "Australia",
       "emoji": "🇦🇺",
@@ -49,14 +37,14 @@
       "id": 73930386
     },
     {
-      "cityName": "Montilly",
+      "cityName": "Bosroger",
       "country": "France",
       "emoji": "🇫🇷",
-      "date": "2024-09-29T12:41:23.199Z",
+      "date": "2024-09-30T05:13:00.652Z",
       "notes": "",
       "position": {
-        "lat": 46.58906908309185,
-        "lng": 3.251953125
+        "lat": 46.01222384063236,
+        "lng": 2.2412109375000004
       },
       "id": 73930392
     }
