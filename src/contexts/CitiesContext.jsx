@@ -43,9 +43,6 @@ function CitiesProvider({ children }) {
     reducer,
     initialState
   );
-  // const [cities, setCities] = useState([]);
-  // const [currentCity, setCurrentCity] = useState({});
-  // const [isLoading, setIsLoading] = useState(false);
 
   useEffect(function () {
     fetchCities();
@@ -139,3 +136,13 @@ function useCities() {
 }
 
 export { CitiesProvider, useCities };
+
+
+// note:
+// const [{ cities, isLoading, currentCity }, dispatch] = useReducer(
+//   reducer,
+//   initialState
+// );
+// const [cities, setCities] = useState([]);
+// const [currentCity, setCurrentCity] = useState({});
+// const [isLoading, setIsLoading] = useState(false);
